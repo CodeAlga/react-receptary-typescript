@@ -1,0 +1,27 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+
+$utilities: (
+  "width": (
+    property: width,
+    class: w,
+    responsive: true,
+    values: (
+      10: 10vw,
+      20: 20vw,
+      25: 25vw,
+      30: 30vw,
+      40: 40vw,
+      50: 50vw,
+      60: 60vw,
+      70: 70vw,
+      75: 75vw,
+      80: 80vw,
+      90: 90vw,
+      100: 100vw,
+    ),
+  ),
+);
+
+@import "~bootstrap/scss/bootstrap.scss";
